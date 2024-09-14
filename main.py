@@ -64,6 +64,16 @@ if __name__ == "__main__":
             print("\nАссортимент после замены двух продуктов:")
             print(magnet_store)
 
+            # Обновление цены для двух продуктов
+
+            magnet_store.update_item_price("Авокадо", 455)
+            magnet_store.update_item_price("Лук", 130)
+
+            print("\nАссортимент после обновления цен:")
+            print(magnet_store)
+
+
+
 
 
 
