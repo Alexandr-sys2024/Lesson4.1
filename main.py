@@ -58,6 +58,14 @@ if __name__ == "__main__":
             print("\nАссортимент после добавления товаров:")
             print(golden_store)
 
+            # Изменение 2 продуктов на новые
+            golden_store.remove_item("Сметана")
+            golden_store.add_item("Булка", 43)
+            golden_store.remove_item("Шоколад")
+            golden_store.add_item("Сахар", 88)
+
+            print("\nАссортимент после замены двух продуктов:")
+            print(golden_store)
 
 
 
