@@ -59,6 +59,13 @@ if __name__ == "__main__":
     print("\nАссортимент после замены двух продуктов:")
     print(semerochka_store)
 
+    # Обновление цены для двух продуктов
+    semerochka_store.update_item_price("Яблоки", 3.0)
+    semerochka_store.update_item_price("Картофель", 0.9)
+
+    print("\nАссортимент после обновления цен:")
+    print(semerochka_store)
+
 
 
 
