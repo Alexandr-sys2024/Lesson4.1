@@ -67,12 +67,17 @@ if __name__ == "__main__":
     print(semerochka_store)
 
     semerochka_store.remove_item("Булка")
-    semerochka_store.add_item("Питца", 1.5)
+    semerochka_store.add_item("Пицца", 1.5)
     semerochka_store.remove_item("Соль")
     semerochka_store.add_item("Перец", 0.9)
 
     print("\nАссортимент после замены двух продуктов:")
     print(semerochka_store)
+
+    def __str__(self):
+        """Возвращает строковое представление магазина."""
+        return (f"Магазин: {"Семерочка"}, Адрес: {"ул. Заречная, д. 77"}, "
+                f"Товары: {'Молоко': 0.9, 'Яблоки': 3.0, 'Картофель': 0.9, 'Питца': 1.5, 'Перец': 0.9}")
 
 
 
