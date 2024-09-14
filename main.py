@@ -38,24 +38,20 @@ class Store:
 # Пример использования
 if __name__ == "__main__":
     # Создание магазина
-    my_store = Store("Магазин у дома", "ул. Примерная, 123")
+    semerochka_store = Store("Семерочка", "ул. Заречная, д. 77")
 
-    # Добавление товаров
-    my_store.add_item("apples", 0.5)
-    my_store.add_item("bananas", 0.75)
+    # Добавление 5 продуктов
+    semerochka_store.add_item("Хлеб", 1.2)
+    semerochka_store.add_item("Молоко", 0.9)
+    semerochka_store.add_item("Яблоки", 2.5)
+    semerochka_store.add_item("Сахар", 1.0)
+    semerochka_store.add_item("Картофель", 0.7)
 
-    # Получение цены товара
-    price = my_store.get_item_price("apples")
-    print(f"Цена на 'apples': {price}")
+    print("\nАссортимент после добавления товаров:")
+    print(semerochka_store)
 
-    # Обновление цены товара
-    my_store.update_item_price("apples", 0.6)
 
-    # Удаление товара
-    my_store.remove_item("bananas")
 
-    # Вывод информации о магазине
-    print(my_store)
-    def __init__(self, name, address, items):
+
 
 
