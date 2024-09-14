@@ -46,4 +46,12 @@ class Store:
 if __name__ == "__main__":
             magnet_store = Store("Магнит", "ул. Гагарина, д. 99")
 
+            magnet_store.add_item("Помидоры", 230)
+            magnet_store.add_item("Огурцы", 199)
+            magnet_store.add_item("Капуста", 139)
+            magnet_store.add_item("Морковь", 99)
+
+            print("\nАссортимент после добавления товаров:")
+            print(magnet_store)
+
             
