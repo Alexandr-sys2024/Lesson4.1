@@ -50,6 +50,15 @@ if __name__ == "__main__":
     print("\nАссортимент после добавления товаров:")
     print(semerochka_store)
 
+    # Изменение 2 продуктов на новые
+    semerochka_store.remove_item("Хлеб")
+    semerochka_store.add_item("Булка", 1.3)
+    semerochka_store.remove_item("Сахар")
+    semerochka_store.add_item("Соль", 0.8)
+
+    print("\nАссортимент после замены двух продуктов:")
+    print(semerochka_store)
+
 
 
 
