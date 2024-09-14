@@ -54,4 +54,17 @@ if __name__ == "__main__":
             print("\nАссортимент после добавления товаров:")
             print(magnet_store)
 
+            # Изменение 2 продуктов на новые
+
+            magnet_store.remove_item("Капуста")
+            magnet_store.add_item("Авокадо", 430)
+            magnet_store.remove_item("Огурцы")
+            magnet_store.add_item("Лук", 98)
+
+            print("\nАссортимент после замены двух продуктов:")
+            print(magnet_store)
+
+
+
+
             
