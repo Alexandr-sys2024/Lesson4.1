@@ -42,9 +42,9 @@ Lesson4.1/
 Купить продукты (срок: 20-09-2024) - Не выполнено
 ```
 
-## 📝 Лицензия
-Этот проект распространяется под лицензией [MIT](LICENSE).
+## 📜 Лицензия
+Проект распространяется по лицензии [MIT](LICENSE).
 
-## 🤝 Контакты
-Автор: Alexandr-sys2024  
-GitHub: [Lesson4.1](https://github.com/Alexandr-sys2024/Lesson4.1)
+## 🛠 Контакты
+📧 Email: a.shubin2025@gmail.com 
+💻 GitHub: https://github.com/Alexandr-sys2024
